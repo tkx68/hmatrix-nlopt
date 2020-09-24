@@ -2,3 +2,4 @@ dist/
 .stack-work/
 *.o
 *.hi
+*.lock
