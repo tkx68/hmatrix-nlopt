@@ -1,0 +1,11 @@
+cradle:
+        stack:
+                - path: "src"
+                  component: "hmatrix-nlopt:lib"
+                - path: "spec"
+                  component: "hmatrix-nlopt:spec"
+                - path: "bench"
+                  component: "hmatrix-nlopt:bench:hmatrix-nlopt"
+dependencies:
+        - hmatrix-nlopt.cabal
+        - stack.yaml
