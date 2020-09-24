@@ -1,6 +1,11 @@
 flags:
+ghc-options:
+    # All packages
+    "$locals": -Wall
+    "$targets": -Werror
+    "$everything": -O2
 packages:
  - '.'
  - '../nlopt-haskell'
 extra-deps:
-resolver: lts-12.2
+resolver: lts-16.15
